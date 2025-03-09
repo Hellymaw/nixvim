@@ -104,6 +104,22 @@
     }
     {
       mode = "n";
+      key = "<C-h>";
+      action = "<cmd>vertical resize -2<cr>";
+      options = {
+        desc = "Decrease Window Height";
+      };
+    }
+    {
+      mode = "n";
+      key = "<C-l>";
+      action = "<cmd>vertical resize +2<cr>";
+      options = {
+        desc = "Increase Window Height";
+      };
+    }
+    {
+      mode = "n";
       key = "<A-j>";
       action = "<cmd>m .+1<cr>==";
       options = {
