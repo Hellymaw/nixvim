@@ -107,7 +107,7 @@
       key = "<C-h>";
       action = "<cmd>vertical resize -2<cr>";
       options = {
-        desc = "Decrease Window Height";
+        desc = "Decrease Window Width";
       };
     }
     {
@@ -115,7 +115,7 @@
       key = "<C-l>";
       action = "<cmd>vertical resize +2<cr>";
       options = {
-        desc = "Increase Window Height";
+        desc = "Increase Window Width";
       };
     }
     {
